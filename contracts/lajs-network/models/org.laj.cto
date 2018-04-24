@@ -40,3 +40,9 @@ event SampleEvent {
   o String oldValue
   o String newValue
 }
+
+asset LAJAsset identified by assetId {
+  o String assetId
+  --> SampleParticipant owner
+  o String value
+}
