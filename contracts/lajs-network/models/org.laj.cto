@@ -41,8 +41,5 @@ event SampleEvent {
   o String newValue
 }
 
-asset LAJAsset identified by assetId {
-  o String assetId
-  --> SampleParticipant owner
-  o String value
+asset LAJAsset extends SampleAsset {
 }
