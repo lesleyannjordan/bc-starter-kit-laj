@@ -41,5 +41,7 @@ event SampleEvent {
   o String newValue
 }
 
+/*
 asset LAJAsset extends SampleAsset {
 }
+*/
